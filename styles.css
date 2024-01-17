@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    text-align: right;
+}
+header{
+    background-color:rgb(77, 4, 77);
+    color:white;
+    padding:25px;
+    text-align:center;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    float:left;
+    display:block;
+    padding:15px 15px;
+    font-size:20px;
+}
+.intro{
+    
+    color:black;
+    width:600px;
+    height:100px;
+    padding:160px;
+    margin:30px;
+    display:flex;
+    text-align: left;
+    background-color: pink;
+}
+.image{
+    position:fixed;
+    top:0;
+    right:0;
+    margin:200px;
+}
+.round{
+    border-radius:70%;
+    overflow:hidden;
+    width:300px;
+    height:300px;
+}
+.point{
+    font-size:30px;
+    font-style:italic;
+}
+.cen{
+    height:100px;
+    width:600px;
+    padding:160px;
+    text-align: left;
+    font-style:bold;
+    font-size:18px;
+    margin:0;
+}
+.sec{
+    background-image:url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-size:cover;
+}
+.skills{
+    display:flex;
+    justify-content:center;
+    align-items:left;
+    padding:100px;
+    /*background-image: url("https://wallpapers.com/images/high/blush-background-106l9kpyphcv8vtl.webp");*/
+    background-image: url("https://wallpapers.com/images/high/light-pink-background-s6p2lgj17vf86nai.webp");
+}
+.tech:first-child{
+    background-color: pink;
+    padding:5px;
+}
+.tech:last-child{
+    background-color: pink;
+}
+.tech{
+    margin-right:150px;
+    width:50%;
+}
+.project{
+    padding:175px;
+    overflow:hidden;
+    padding-left: 40px;
+    padding-top:40px;
+    padding-right:500px;
+    background-image: url("https://wallpapers.com/images/high/light-pink-background-s6p2lgj17vf86nai.webp");
+    border-radius:85% ;
+    text-align:center;
+}
+.resume{
+    padding:160px;
+    background-color: pink;
+}
+.foot{
+    padding:50px;
+    margin-top: 160px;
+}
+.reach h1{
+    padding:50px;
+}
+.reach p{
+    margin:20px;
+}
+footer{
+    text-align:center;
+    background-color:rgb(58, 4, 58);
+    color:white;
+    padding:50px;
+    font-size:20px;
+}
+.reach{
+    background-color:pink;
+    padding:10px;
+    margin:20px;
+}
